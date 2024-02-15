@@ -17,9 +17,16 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 
-Welcome to my professional page! I am an experienced Bioinformatician, currently engaged with the Prostate Cancer Research Group at the Department of Medical Epidemiology and Biostatistics (MEB), based at the prestigious Karolinska Institute in Sweden. My expertise primarily lies in the development of bioinformatics tools and pipelines, with a special focus on analyzing Next Generation Sequencing (NGS) data. Over the past seven years, my contributions have been instrumental in advancing our understanding of genomic data. In our research team, we developed the 'Autoseq-Snakemake', a custom pipeline tailor-made for ultra-deep sequencing of circulating tumor DNA (ctDNA) samples. This pipeline enables us to detect a wide array of genomic alterations with precision. My role involves continuous updates and integration of novel methodologies and tools to enhance our pipeline's capabilities.
+Welcome to my page! I am an experienced Bioinformatician, currently engaged with the Prostate Cancer Research Group at the Department of Medical Epidemiology and Biostatistics (MEB), based at the Karolinska Institute in Sweden. My expertise primarily lies in the development of bioinformatics tools and pipelines, with a special focus on analyzing Next Generation Sequencing (NGS) data. In my current research team, I developed a set of custom pipelines using snakemake to identify the genomic profile of cancer patients. This pipeline enables us to detect a wide array of genomic alterations with precision. My role involves continuous updates and integration of novel methodologies and tools to enhance our pipeline's capabilities.
 
-Additionally, I am responsible for establishing and managing clusters and Slurm on our High-Performance Computing (HPC) servers. This includes maintaining the entire production environment, ensuring its smooth operation and efficiency.
+I support the bioinformatics work for three clinical trials focusing on Precision Medicine and also other research projects in our team. 
+* [ProBio](https://clinicaltrials.gov/ct2/show/NCT03903835)
+* [iPCM](https://ki.se/en/cancerresearchki/personalised-cancer-medicine-pcm-program)
+* [PSFF](https://cancercentrum.se/samverkan/vara-uppdrag/forskning/cancerstudier-i-sverige/studier/psff-blodburna-vavnadsprov/)
 
-My current focus is on the development of an RNA fusion pipeline using Snakemake. This project is particularly exciting as it involves integrating Whole Genome data, which is poised to bring new insights and advancements in the field of bioinformatics and genomic research.
+Additionally, I am responsible for establishing and managing clusters and Slurm on our High-Performance Computing (HPC) servers. This includes maintaining the entire production environment, ensuring its smooth operation and efficiency. 
+
+My area of interest:
+  - Implementation of Machine Learning & AI methods to intergrate multi-omics data 
+  - Interested in Cancer Genomics and Epigenomics
 
