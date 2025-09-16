@@ -22,7 +22,7 @@ I am Sarath Kumar Murugan, a Bioinformatician with expertise in developing scala
 My work focuses on:
 
   - NGS Data Analysis: Comprehensive genomic profiling to support precision oncology.
-  - Pipeline Development: Building reproducible workflows using Snakemake for accurate detection of genomic alterations.
+  - Pipeline Development: Building reproducible workflows using Nextflow/Snakemake for accurate detection of genomic alterations.
   - HPC Administration: Managing clusters and Slurm for high-performance computing environments.
 
 I contribute to multiple Precision Medicine clinical trials (ProBio, iPCM, PSFF) and research projects, integrating cutting-edge tools and methodologies to advance cancer genomics.
