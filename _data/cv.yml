@@ -2,96 +2,101 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Sarath Kumar Murugan
+    - name: Location
+      value: Huddinge, Sweden
+    - name: Phone
+      value: (+46) 764307294
     - name: Date of Birth
-      value: 14th March 1879
+      value: 07/05/1996
     - name: Languages
-      value: English, German
-
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+      value: English, Tamil
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Bioinformatician (Full Time)
+      institution: Prostate Cancer Research Group, Department of Medical Epidemiology and Biostatistics (MEB), Karolinska Institutet, Stockholm, Sweden
+      year: Jan 2023 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Designed and maintained scalable pipelines (Nextflow, Snakemake) for genomic and transcriptomic profiling of cancer patients.
+        - Optimized structural variant workflows for liquid biopsy data, improving accuracy and reproducibility.
+        - Built a web application for clinical variant curation to streamline precision oncology workflows.
+        - Administered and optimized HPC clusters and containerized workflows for large-scale analyses.
+        - Deployed a digital slide archive for reviewing whole-slide images (WSI) for pathologists.
+        - Supported clinical trials including ProBio, iPCM, and PSFF.
+
+    - title: Bioinformatician (Part Time)
+      institution: Prostate Cancer Research Group, Department of Medical Epidemiology and Biostatistics (MEB), Karolinska Institutet, Stockholm, Sweden
+      year: Nov 2020 - Dec 2022
       description:
-        - Description 1.
-        - Description 2.
+        - Developed pipelines for targeted re-sequencing and whole-genome sequencing using Snakemake.
+        - Analyzed single-cell RNA-seq and spatial transcriptomics (Seurat, Scanpy, Squidpy).
+        - Set up cloud-based bioinformatics infrastructure for routine analysis.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Research Assistant
+      institution: Biostatistics Research Group, Department of Medical Epidemiology and Biostatistics (MEB), Karolinska Institutet, Stockholm, Sweden
+      year: Jan 2020 - Oct 2020
       description:
+        - Developed FuSeq_WES, a statistical method for detecting gene fusions in WES and targeted data.
+        - Validated and optimized the method on patient datasets and released it on GitHub.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Bioinformatician
+      institution: Clinical Genomics Facility, Science for Life Laboratory, Stockholm, Sweden
+      year: May 2019 - Dec 2019
+      description:
+        - Upgraded BALSAMIC, a Snakemake-based cancer pipeline for targeted resequencing.
+        - Implemented automated testing (pytest) and benchmarking (Illumina hap.py); built validation workflow (BALSAMIC Validate).
+        - Developed an interactive CNV visualization tool (CNVPlots) and deployed on Heroku.
 
-- title: Open Source Projects
+    - title: Bioinformatician
+      institution: Department of Medical Epidemiology and Biostatistics (MEB), Karolinska Institutet, Stockholm, Sweden
+      year: Nov 2018 - May 2019
+      description:
+        - Enhanced an in-house Python framework for targeted cancer panel sequencing.
+        - Automated liquid biopsy analysis steps; built interactive result visualization (Flask, JavaScript).
+        - Led software testing and documentation for pipelines.
+
+    - title: Junior Bioinformatics Programmer
+      institution: Genome Life Sciences Pvt. Ltd., Chennai, India
+      year: Jun 2017 - Oct 2018
+      description:
+        - Developed pipelines for WGS, WES, and mRNA-seq within a cloud-based NGS analysis and clinical reporting platform (Genome Explorer).
+        - Identified SNPs, indels, SVs, and DEGs using shell scripting; performed DGE and Trio analyses.
+        - Integrated Clinical Variant Classification (CVC) for pathogenicity prediction.
+
+
+- title: Education
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+    - title: M.Sc (Bioinformatics) - Grade 1.5 (Excellent)
+      institution: Saarland University, Saarbrücken, Germany
+      year: 2020 - 2022
+      description:
+        - Advanced coursework in AI, Machine Learning, Software Engineering, and Single-Cell Bioinformatics.
+        - Master's Thesis - "MethylTFR — A computational method to identify DNA methylation signatures in transcription factor binding sites."
+    - title: B.Tech (Bioinformatics) - CGPA 8.07/10
+      institution: Tamil Nadu Agricultural University, Coimbatore, India
+      year: 2013 - 2017
+      description:
+        - Built a database for bacterial and fungal stress-responsive genes in rice to support gene-phenotype association.
+        - Developed a real-time web application for post-counselling undergraduate admissions (PHP, MySQL), adopted for TNAU's 2016 intake.
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+    - title: Cancer Genomics & Precision Oncology
       items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - Variant discovery, structural variants, clinical interpretation
+    - title: Transcriptomics & Spatial Omics
+      items:
+        - Bulk RNA-seq, scRNA-seq, spatial transcriptomics
+    - title: Epigenomics & Multi-Omics
+      items:
+        - Integration of methylation and expression for biomarker discovery
+    - title: ML/AI for Omics
+      items:
+        - Predictive modeling and workflow integration for translational research
+    - title: Workflow Engineering & Reproducibility
+      items:
+        - Scalable pipelines, containers, testing, CI/CD, HPC/Cloud

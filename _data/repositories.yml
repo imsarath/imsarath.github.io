@@ -3,3 +3,6 @@ github_users:
 
 github_repos:
   - imsarath/cnvplots
+  - imsarath/nf-autoseq
+  - imsarath/nf-capbench
+  - Clinical-Genomics/BALSAMIC

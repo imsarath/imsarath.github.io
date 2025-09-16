@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <b>Bioinformatician | ML & AI enthusiast </b> 
+subtitle: <b>Bioinformatician | ML & AI in Genomics</b> 
 
 profile:
   align: right
@@ -17,16 +17,17 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 
-Welcome to my page! I am an experienced Bioinformatician, currently engaged with the Prostate Cancer Research Group at the Department of Medical Epidemiology and Biostatistics (MEB), based at the Karolinska Institute in Sweden. My expertise primarily lies in the development of bioinformatics tools and pipelines, with a special focus on analyzing Next Generation Sequencing (NGS) data. In my current research team, I developed a set of custom pipelines using snakemake to identify the genomic profile of cancer patients. This pipeline enables us to detect a wide array of genomic alterations with precision. My role involves continuous updates and integration of novel methodologies and tools to enhance our pipeline's capabilities.
+I am Sarath Kumar Murugan, a Bioinformatician with expertise in developing scalable pipelines and computational solutions for cancer genomics research. Currently, I work with the Prostate Cancer Research Group at the Department of Medical Epidemiology and Biostatistics (MEB), Karolinska Institutet, Sweden.
 
-I support the bioinformatics work for three clinical trials focusing on Precision Medicine and also other research projects in our team. 
-* [ProBio](https://clinicaltrials.gov/ct2/show/NCT03903835)
-* [iPCM](https://ki.se/en/cancerresearchki/personalised-cancer-medicine-pcm-program)
-* [PSFF](https://cancercentrum.se/samverkan/vara-uppdrag/forskning/cancerstudier-i-sverige/studier/psff-blodburna-vavnadsprov/)
+My work focuses on:
 
-Additionally, I am responsible for establishing and managing clusters and Slurm on our High-Performance Computing (HPC) servers. This includes maintaining the entire production environment, ensuring its smooth operation and efficiency. 
+  - NGS Data Analysis: Comprehensive genomic profiling to support precision oncology.
+  - Pipeline Development: Building reproducible workflows using Snakemake for accurate detection of genomic alterations.
+  - HPC Administration: Managing clusters and Slurm for high-performance computing environments.
 
-My area of interest:
-  - Implementation of Machine Learning & AI methods to intergrate multi-omics data 
-  - Interested in Cancer Genomics and Epigenomics
+I contribute to multiple Precision Medicine clinical trials (ProBio, iPCM, PSFF) and research projects, integrating cutting-edge tools and methodologies to advance cancer genomics.
+
+Research Interests:
+  - Machine Learning & AI for Multi-Omics Integration
+  - Cancer Genomics and Epigenomics
 
